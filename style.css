@@ -34,7 +34,7 @@ li a:hover {
   margin-left: auto;
 }
 
-/* ---------- Main Section ---------- */
+
 main {
   background: linear-gradient(90deg, #4b5b81, #3375bb);
   height: 1000px;
@@ -68,6 +68,10 @@ main {
   color: white;
   font-size: 18px;
   margin-top: 8px;
+}
+.ttable{
+ float: left;
+ gap: 10rem;
 }
 footer{
   background-color: #000000;
