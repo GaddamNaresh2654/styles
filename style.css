@@ -1,0 +1,79 @@
+
+header {
+  height: 40px;
+  background-color: lightslategray;
+  padding: 5px 20px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: flex;
+  margin: 7px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+li a:hover {
+  background-color: aliceblue;
+  color: black;
+  border-radius: 3px;
+  padding: 3px 6px;
+}
+
+#Login {
+  margin-left: auto;
+}
+
+/* ---------- Main Section ---------- */
+main {
+  background: linear-gradient(90deg, #4b5b81, #3375bb);
+  height: 1000px;
+  padding: 20px;
+}
+
+.main-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.img-p {
+  text-align: center;
+}
+
+.img-p img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.img-p img:hover {
+  transform: scale(1.05);
+}
+
+.img-p h2 {
+  color: white;
+  font-size: 18px;
+  margin-top: 8px;
+}
+footer{
+  background-color: #000000;
+  height: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+
+}
