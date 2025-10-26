@@ -3,19 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>login</title>
+
+    <style>
+        
+        div{
+            padding: 10rem 10rem;
+        }
+        table{
+            border: 2px solid black;
+            background-color: lightpink;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            border-radius: 10px;
+            padding-left: 50px;
+        }
+        table tr td input{
+            align-items: center;
+            margin: 4px 4px 4px 4px;
+        }
+        table tr td button{
+            text-align:center;
+            border-radius: 5px;
+            width: 60px;
+            letter-spacing: 2px;
+            height: 20px;
+        }
+        table tr td {
+           border-radius: 5px;
+        }
+        .form{
+            padding-left: 45%;
+
+        }
+    </style>
 </head>
 <body>
-    <form action="">
-         <table>
-          <tr><td><input type="name" placeholder="enter full name" required></td></tr>
-          <tr><td><input type="email" placeholder="enter email" required></td></tr>
-          <tr><td><input type="password" placeholder="enter new password" required></td></tr>
-           <tr><td><input type="password" placeholder="conform password"required></td></tr>
-          <tr>
-            <td><button type="button">Register</button></td>
-          </tr>
-        </table>
-    </form>
+    <h1><a href="./index.html"> Back home</a></h1>
+    <div class="form">
+        <form action="#">
+      <table>
+        <tr><td><input type="name" placeholder="enter full name" required></td></tr>
+        <tr><td><input type="email" placeholder="enter email" required></td></tr>
+        <tr><td><input type="password" placeholder="enter password"required></td></tr>
+        <tr><td><button value="Login">login</button></td></tr>
+      </table>
+      </form>
+    </div>
+    
 </body>
 </html>
